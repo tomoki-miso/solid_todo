@@ -1,5 +1,9 @@
 # todo_solid
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fbc15662-89bc-4ac7-a5ed-00dd806601b2" width="60%">
+</p>
+
 Solidart（Signals）を使った Flutter 製 TODO アプリのサンプルです。`flutter_solidart` によるリアクティブな状態管理、`disco` の DI、そして `http` 経由のシンプルなモック REST API を組み合わせ、カウンターと TODO リストの 2 画面を実装しています。TODO リストは GET / POST / PATCH / DELETE をすべてモック API に対して行い、状態は `ListSignal` でリアクティブに同期されます。
 
 ## 概要 / Features
